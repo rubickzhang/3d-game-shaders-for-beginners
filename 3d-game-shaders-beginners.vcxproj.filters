@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demonstration\src\main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docs\blinn-phong.html" />
+    <None Include="docs\bloom.html" />
+    <None Include="docs\blur.html" />
+    <None Include="docs\building-the-demo.html" />
+    <None Include="docs\cel-shading.html" />
+    <None Include="docs\chromatic-aberration.html" />
+    <None Include="docs\deferred-rendering.html" />
+    <None Include="docs\depth-of-field.html" />
+    <None Include="docs\dilation.html" />
+    <None Include="docs\film-grain.html" />
+    <None Include="docs\flow-mapping.html" />
+    <None Include="docs\foam.html" />
+    <None Include="docs\fog.html" />
+    <None Include="docs\fresnel-factor.html" />
+    <None Include="docs\gamma-correction.html" />
+    <None Include="docs\glsl.html" />
+    <None Include="docs\index.html" />
+    <None Include="docs\lighting.html" />
+    <None Include="docs\lookup-table.html" />
+    <None Include="docs\motion-blur.html" />
+    <None Include="docs\normal-mapping.html" />
+    <None Include="docs\outlining.html" />
+    <None Include="docs\pixelization.html" />
+    <None Include="docs\posterization.html" />
+    <None Include="docs\reference-frames.html" />
+    <None Include="docs\render-to-texture.html" />
+    <None Include="docs\rim-lighting.html" />
+    <None Include="docs\running-the-demo.html" />
+    <None Include="docs\screen-space-reflection.html" />
+    <None Include="docs\screen-space-refraction.html" />
+    <None Include="docs\setup.html" />
+    <None Include="docs\sharpen.html" />
+    <None Include="docs\ssao.html" />
+    <None Include="docs\texturing.html" />
+    <None Include="docs\_template.html5" />
+  </ItemGroup>
+</Project>

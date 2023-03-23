@@ -1,15 +1,18 @@
-/*
+﻿/*
   (C) 2019 David Lettier
   lettier.com
 */
 
 #include <thread>
-#include <unistd.h>
+//#include <unistd.h>
 #include <random>
 #include <string>
 #include <chrono>
 #include <thread>
 #include <algorithm>
+
+#define _USE_MATH_DEFINES
+#include <math.h>
 
 #include "pandaFramework.h" // Panda3D 1.10.9
 #include "renderBuffer.h"
@@ -376,7 +379,7 @@ int main
 
   load_prc_file("panda3d-prc-file.prc");
 
-  PT(TextFont) font = FontPool::load_font("fonts/font.ttf");
+  PT(TextFont) font = FontPool::load_font(".\\fonts\\font.ttf");
 
   std::vector<PT(AudioSound)> sounds =
     { audioManager->get_sound("sounds/wheel.ogg", true)
